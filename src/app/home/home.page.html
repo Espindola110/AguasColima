@@ -1,79 +1,80 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Flood Light
+      Semáforos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content class="masters">
-    <ion-infinite-scroll>
-      <ion-infinite-scroll-content>
-        <ion-list>
-          <ion-item>
-            <ion-avatar slot="start">
-              <img
-                src="https://www.pedroamador.com/wp-content/uploads/2014/01/campana-fondo-amarillo-en-redes-sociales.jpg">
-            </ion-avatar>
-            <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
-              <h2>Semáforo 1 </h2>
+  <ion-infinite-scroll>
+    <ion-infinite-scroll-content>
+      <ion-list>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img
+              src="https://www.pedroamador.com/wp-content/uploads/2014/01/campana-fondo-amarillo-en-redes-sociales.jpg">
+          </ion-avatar>
+          <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
+              <ion-button expand="full" size="large" fill="clear" 
+              routerLink="/map"><ion-text color="dark">Semáforo 1</ion-text></ion-button>
               <h3>Ubicación</h3>
-            </ion-label>
-            <ion-toggle color="success" [(ngModel)]="semaforo1"></ion-toggle>
-          </ion-item>
-          <ion-item>
-            <ion-avatar slot="start">
-              <img src="http://significadodeloscolores.info/wp-content/uploads/2014/08/color-rojo.png">
-            </ion-avatar>
-            <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
-              <h2>Semáforo 2</h2>
-              <h3>Ubicación</h3>
-            </ion-label>
-            <ion-toggle color="success"[(ngModel)]="semaforo2"></ion-toggle>
-          </ion-item>
-          <ion-item>
-            <ion-avatar slot="start">
-              <img src="http://www.dictionary.com/e/wp-content/uploads/2016/01/shamrock.gif">
-            </ion-avatar>
-            <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
-              <h2>Semáforo 3</h2>
-              <h3>Ubicación</h3>
-            </ion-label>
-            <ion-toggle color="success" [(ngModel)]="semaforo3"></ion-toggle>
-          </ion-item>
-          <ion-item>
-            <ion-avatar slot="start">
-              <img
-                src="https://www.pedroamador.com/wp-content/uploads/2014/01/campana-fondo-amarillo-en-redes-sociales.jpg">
-            </ion-avatar>
-            <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
-              <h2>Semáforo 4 </h2>
-              <h3>Ubicación</h3>
-            </ion-label>
-            <ion-toggle color="success" [(ngModel)]="semaforo4"></ion-toggle>
-          </ion-item>
-          <ion-item>
-            <ion-avatar slot="start">
-              <img src="http://significadodeloscolores.info/wp-content/uploads/2014/08/color-rojo.png">
-            </ion-avatar>
-            <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
-              <h2>Semáforo 5</h2>
-              <h3>Ubicación</h3>
-            </ion-label>
-              <ion-toggle color="success" [(ngModel)]="semaforo5"></ion-toggle>
-          </ion-item>
-          <ion-item>
-            <ion-avatar slot="start">
-              <img src="http://www.dictionary.com/e/wp-content/uploads/2016/01/shamrock.gif">
-            </ion-avatar>
-            <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
-              <h2>Semáforo 6</h2>
-              <h3>Ubicación</h3>
-            </ion-label>
-            
-            <ion-toggle color="success" [(ngModel)]="semaforo6"></ion-toggle>
-          </ion-item>
-        </ion-list>
-      </ion-infinite-scroll-content>
-    </ion-infinite-scroll>
+          </ion-label>
+          <ion-toggle color="success" [(ngModel)]="semaforo1"></ion-toggle>
+        </ion-item>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="http://significadodeloscolores.info/wp-content/uploads/2014/08/color-rojo.png">
+          </ion-avatar>
+          <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
+            <h2>Semáforo 2</h2>
+            <h3>Ubicación</h3>
+          </ion-label>
+          <ion-toggle color="success" [(ngModel)]="semaforo2"></ion-toggle>
+        </ion-item>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="http://www.dictionary.com/e/wp-content/uploads/2016/01/shamrock.gif">
+          </ion-avatar>
+          <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
+            <h2>Semáforo 3</h2>
+            <h3>Ubicación</h3>
+          </ion-label>
+          <ion-toggle color="success" [(ngModel)]="semaforo3"></ion-toggle>
+        </ion-item>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img
+              src="https://www.pedroamador.com/wp-content/uploads/2014/01/campana-fondo-amarillo-en-redes-sociales.jpg">
+          </ion-avatar>
+          <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
+            <h2>Semáforo 4 </h2>
+            <h3>Ubicación</h3>
+          </ion-label>
+          <ion-toggle color="success" [(ngModel)]="semaforo4"></ion-toggle>
+        </ion-item>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="http://significadodeloscolores.info/wp-content/uploads/2014/08/color-rojo.png">
+          </ion-avatar>
+          <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
+            <h2>Semáforo 5</h2>
+            <h3>Ubicación</h3>
+          </ion-label>
+          <ion-toggle color="success" [(ngModel)]="semaforo5"></ion-toggle>
+        </ion-item>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="http://www.dictionary.com/e/wp-content/uploads/2016/01/shamrock.gif">
+          </ion-avatar>
+          <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
+            <h2>Semáforo 6</h2>
+            <h3>Ubicación</h3>
+          </ion-label>
+
+          <ion-toggle color="success" [(ngModel)]="semaforo6"></ion-toggle>
+        </ion-item>
+      </ion-list>
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
 
 </ion-content>
