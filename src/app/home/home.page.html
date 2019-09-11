@@ -1,21 +1,22 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Flood Light
+      Semáforos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content class="masters">
-    <ion-infinite-scroll>
-      <ion-infinite-scroll-content>
-        <ion-list>
-          <ion-item>
-            <ion-avatar slot="start">
-              <img
-                src="https://www.pedroamador.com/wp-content/uploads/2014/01/campana-fondo-amarillo-en-redes-sociales.jpg">
-            </ion-avatar>
-            <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
-              <h2>Semáforo 1 </h2>
+  <ion-infinite-scroll>
+    <ion-infinite-scroll-content>
+      <ion-list>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img
+              src="https://www.pedroamador.com/wp-content/uploads/2014/01/campana-fondo-amarillo-en-redes-sociales.jpg">
+          </ion-avatar>
+          <ion-label class="sc-ion-label-ios-h sc-ion-label-ios-s ios hydrated">
+              <ion-button expand="full" size="large" fill="clear" 
+              routerLink="/map"><ion-text color="dark">Semáforo 1</ion-text></ion-button>
               <h3>Ubicación</h3>
             </ion-label>
             <ion-toggle color="success" [(ngModel)]="semaforo1"></ion-toggle>
